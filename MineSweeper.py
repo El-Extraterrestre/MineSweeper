@@ -3,9 +3,9 @@ import pygame as pg
 from random import randint
 
 cellSize = 50
-bombsCount = 50
+bombsCount = 15
 
-row, colum = 10, 15
+row, colum = 10,15
 
 borderRadius = int(cellSize/15)
 gameOver = False
@@ -26,7 +26,7 @@ def generateField(pg,scr):
     clearedBomb = 0
     clearedField = 0
 
-    #Bomb generation
+    #Bomb generation so ther is no double
     tempBomb = [i for i in range(row*colum)]
     bombs.clear()
     for _ in range(bombsCount):
@@ -186,9 +186,12 @@ pg.font.init()
 #generate Font
 font = pg.font.Font(pg.font.get_default_font(), int(0.75*cellSize))
 fontBig = pg.font.Font(pg.font.get_default_font(), cellSize*2)
+#set window
 width, hight = cellSize * colum, cellSize * row
 screen = pg.display.set_mode((width, hight))
-
+logo = pg.image.load("icon.png")
+pg.display.set_icon(logo)
+pg.display.set_caption("AutoMineSweeper")
 
 generateField(pg,screen)
     
