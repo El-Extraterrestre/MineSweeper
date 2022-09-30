@@ -8,7 +8,7 @@ Commands:     - left click      : open one cell
               - a               : automode to solve all
               
               
-![image1](https://github.com/El-Extraterrestre/MineSweeper/tree/main/images/image1.PNG?raw=true)
-![image2](https://github.com/El-Extraterrestre/MineSweeper/tree/main/images/image2.PNG?raw=true)
-![image3](https://github.com/El-Extraterrestre/MineSweeper/tree/main/images/image3.PNG?raw=true)
-![image4](https://github.com/El-Extraterrestre/MineSweeper/tree/main/images/image4.PNG?raw=true)
+![image1](https://github.com/El-Extraterrestre/MineSweeper/blob/main/images/image1.png?raw=true)
+![image2](https://github.com/El-Extraterrestre/MineSweeper/blob/main/images/image2.png?raw=true)
+![image3](https://github.com/El-Extraterrestre/MineSweeper/blob/main/images/image3.png?raw=true)
+![image4](https://github.com/El-Extraterrestre/MineSweeper/blob/main/images/image4.png?raw=true)
